@@ -56,10 +56,10 @@ const meet = [{
 }]
 
 const message = {
-    title = "Oficina COMO USAR O GOOGLE CLASSROOM",
-    sub = "Dia 04/06 às 9h (manhã) e 14h (tarde)",
-    public = "PÚBLICO: ESPECIALISTAS",
-    message = ""
+    title: "Oficina COMO USAR O GOOGLE CLASSROOM",
+    sub:"Dia 04/06 às 9h (manhã) e 14h (tarde)",
+    public: "PÚBLICO: ESPECIALISTAS",
+    message: ""
 }
 
 app.get('/rooms', (req, res) => {
