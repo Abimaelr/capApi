@@ -8,52 +8,101 @@ app.use(bodyParser);
 
 
 const meet = [{
+    img: `${ fig1 }`,
     title: 'Sala 1',
-    sub:"Psicólogo",
+    sub:"+Digital - ED. FÍSICA",
     link: 'http://meet.google.com/mke-jbrz-sre',
 },
 {
+    img: `${fig2}`,
     title: 'Sala 2',
-    sub:"Supervisão Pedagógica",
+    sub:"+Digital - ED. FÍSICA",
     link: 'http://meet.google.com/tza-fcpu-awq',
 },{
+    img: `${fig3}`,
     title: 'Sala 3',
-    sub:"Orientação Pedagógica",
+    sub:"+Digital - ED. FÍSICA",
     link: 'http://meet.google.com/csw-tvrn-sfv',
-},{    title: 'Sala 4',
-    sub:"Gestão Pedagógica",
+},{
+    img: `${fig4}`,
+    title: 'Sala 4',
+    sub:"+Digital - GEOGRAFIA",
     link: 'http://meet.google.com/fkm-bfpu-jex',
-},{    title: 'Sala 5',
-    sub:"Assistente Social",
+},{
+    img: `${fig5}`,
+    title: 'Sala 5',
+    sub:"+Digital -  ED. FÍSICA/GEOG.",
     link: ' http://meet.google.com/sqb-khtv-vgh',
-},{    title: 'Sala 6',
-    sub:"---",
+},{
+    img: `${fig6}`,
+    title: 'Sala 6',
+    sub:"+Digital - ENS. RELIGIOSO",
     link: 'http://meet.google.com/wer-rjeq-zma',
-},{    title: 'Sala 7',
-    sub:"---",
+},{
+    img: `${fig7}`,
+    title: 'Sala 7',
+    sub:"+Digital -",
     link: 'http://meet.google.com/twh-sdej-mea',
-},{    title: 'Sala 8',
-    sub:"---",
+},{
+    img: `${fig8}`,
+    title: 'Sala 8',
+    sub:"+Digital - RESERVA",
     link: 'http://meet.google.com/nzp-mhcj-mcp',
-},{    title: 'Sala 9',
-    sub:"---",
+},{
+    img: `${fig9}`,
+    title: 'Sala 9',
+    sub:"+Digital - RESERVA",
     link: 'http://meet.google.com/iwc-fuob-rsc',
 },
 {
+    img: `${fig10}`,
     title: 'Sala 10',
-    sub:"---",
+    sub:"SaberJP - SECRETÁRIOS ESCOLARES",
     link: 'http://meet.google.com/irt-hnws-zwb',
 },
 {
+    img: `${fig11}`,
     title: 'Sala 11',
-    sub:"---",
+    sub:"SaberJP - SECRETÁRIOS ESCOLARES",
     link: 'http://meet.google.com/ivw-zfyg-ehg',
 },
 {
+    img: `${fig12}`,
     title: 'Sala 12',
-    sub:"---",
+    sub:"Sala de estudos Saber JP",
     link: 'http://meet.google.com/qic-jpgq-yhx',
-}]
+},
+{
+    img: `${fig13}`,
+    title: 'Sala 13',
+    sub:"Sala de estudos Saber JP",
+    link: 'http://meet.google.com/qap-jgtk-sap',
+},
+{
+    img: `${fig14}`,
+    title: 'Sala 14',
+    sub:"-",
+    link: 'http://meet.google.com/crv-kpbo-pqf',
+},
+{
+    img: `${fig15}`,
+    title: 'Sala 15',
+    sub:"-",
+    link: 'http://meet.google.com/udj-osvu-mrw',
+},
+{
+    img: `${fig16}`,
+    title: 'Sala 16',
+    sub:"-",
+    link: 'http://meet.google.com/usn-ubbe-yrk',
+},
+{
+    img: `${fig17}`,
+    title: 'Sala 17',
+    sub:"+Digital - Sala de Estudos",
+    link: 'http://meet.google.com/imn-ntrs-cgk',
+}
+]
 
 const message = {
     title: "Oficina COMO USAR O GOOGLE CLASSROOM",
