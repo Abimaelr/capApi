@@ -1,10 +1,9 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const app = express();
 
 const PORT = process.env.PORT || 8877;
 
-app.use(bodyParser);
+app.use(express.json());
 
 
 const meet = [{
@@ -112,11 +111,11 @@ const message = {
 }
 
 app.get('/rooms', (req, res) => {
-    res.status(400).json(meet);
+    res.status(200).json(meet);
 })
 
 app.get("/message", (req, res) => {
-    res.status(400).json(message);
+    res.status(200).json(message);
 })
 
 app.listen(PORT, () => {
