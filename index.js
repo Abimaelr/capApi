@@ -1,10 +1,11 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 
 const PORT = process.env.PORT || 8877;
 
 app.use(express.json());
-
+app.use(cors())
 
 const meet = [{
     // img: `${ fig1 }`,
