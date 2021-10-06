@@ -105,10 +105,10 @@ const meet = [{
 ]
 
 const message = {
-    title: "Oficina COMO USAR O GOOGLE CLASSROOM",
-    sub:"Dia 04/06 às 9h (manhã) e 14h (tarde)",
-    public: "PÚBLICO: ESPECIALISTAS",
-    message: ""
+    title: "PROGRAMA MAIS DIGITAL",
+    sub:"A partir de 04/10/2021 até 28/10/2021",
+    public: "PÚBLICO: PROFESSORES -> Ligua Portuguesa, Matemática, Inglês, Readaptados Polo 1,2,3",
+    message: "18h:30m-20h:30m"
 }
 
 app.get('/rooms', (req, res) => {
