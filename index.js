@@ -107,9 +107,7 @@ const meet = [{
 const message = {
     title: "PROGRAMA MAIS DIGITAL",
     sub:"A partir de 04/10/2021 até 28/10/2021",
-    public: `PÚBLICO: PROFESSORES -> CIÊNCIAS, HISTÓRIA, ARTES, READAPTADOS POLOS 7,8,9
-    \n\n
-    Departamento Escola de Formação/CECAPRO  Fones 3214-7963  e 3211-8760`,
+    public: `PÚBLICO: PROFESSORES -> CIÊNCIAS, HISTÓRIA, ARTES, READAPTADOS POLOS 7,8,9`,
     message: "18h:30m-20h:30m"
 }
 
