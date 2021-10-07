@@ -107,7 +107,7 @@ const meet = [{
 const message = {
     title: "PROGRAMA MAIS DIGITAL",
     sub:"A partir de 04/10/2021 até 28/10/2021",
-    message: "18h:30m-20h:30m"
+    message: "18h:30m-20h:30m",
     public: "PÚBLICO: PROFESSORES -> CIÊNCIAS, HISTÓRIA, ARTES, READAPTADOS POLOS 7,8,9",
 }
 
