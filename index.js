@@ -10,38 +10,38 @@ app.use(cors())
 const meet = [{
     // img: `${ fig1 }`,
     title: 'Sala 1',
-    sub:"+Digital - CIÊNCIAS",
+    sub:"+Digital - LÍNGUA PORTUGUESA",
     link: 'http://meet.google.com/mke-jbrz-sre',
 },
 {
     // img: `${fig2}`,
     title: 'Sala 2',
-    sub:"+Digital - CIÊNCIAS",
+    sub:"+Digital - LÍNGUA PORTUGUESA",
     link: 'http://meet.google.com/tza-fcpu-awq',
 },{
     // img: `${fig3}`,
     title: 'Sala 3',
-    sub:"+Digital - HISTÓRIA",
+    sub:"+Digital - MATEMÁTICA",
     link: 'http://meet.google.com/csw-tvrn-sfv',
 },{
     // img: `${fig4}`,
     title: 'Sala 4',
-    sub:"+Digital - HISTÓRIA",
+    sub:"+Digital - MATEMÁTICA",
     link: 'http://meet.google.com/fkm-bfpu-jex',
 },{
     // img: `${fig5}`,
     title: 'Sala 5',
-    sub:"+Digital -  ARTES.",
+    sub:"+Digital -  L. PORT./MATEM.",
     link: ' http://meet.google.com/sqb-khtv-vgh',
 },{
     // img: `${fig6}`,
     title: 'Sala 6',
-    sub:"+Digital - ARTES",
+    sub:"+Digital - INGLÊS",
     link: 'http://meet.google.com/wer-rjeq-zma',
 },{
     // img: `${fig7}`,
     title: 'Sala 7',
-    sub:"+Digital - READAPTADOS",
+    sub:"+Digital - ",
     link: 'http://meet.google.com/twh-sdej-mea',
 },{
     // img: `${fig8}`,
@@ -108,7 +108,7 @@ const message = {
     title: "PROGRAMA MAIS DIGITAL",
     sub:"A partir de 04/10/2021 até 28/10/2021",
     message: "18h:30m-20h:30m",
-    public: "PÚBLICO: PROFESSORES -> CIÊNCIAS, HISTÓRIA, ARTES, READAPTADOS POLOS 7,8,9",
+    public: "PÚBLICO: PROFESSORES -> LÍNGUA PORTUGUESA, MATEMÁTICA, INGLÊS",
 }
 
 app.get('/rooms', (req, res) => {
