@@ -41,7 +41,7 @@ const meet = [{
 },{
     // img: `${fig7}`,
     title: 'Sala 7',
-    sub:"+Digital - ",
+    sub:"+Digital - READAPTADOS",
     link: 'http://meet.google.com/twh-sdej-mea',
 },{
     // img: `${fig8}`,
