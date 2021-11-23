@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
-const PORT = process.env.PORT || 8877;
+const PORT = process.env.PORT || 21139;
 
 app.use(express.json());
 app.use(cors())
@@ -10,13 +10,13 @@ app.use(cors())
 const meet = [{
     // img: `${ fig1 }`,
     title: 'Sala 1',
-    sub:"CIÊNCIAS",
+    sub:"Ferramentas Google para Produtividade",
     link: 'http://meet.google.com/mke-jbrz-sre',
 },
 {
     // img: `${fig2}`,
     title: 'Sala 2',
-    sub:"CIÊNCIAS",
+    sub:"Suporte",
     link: 'http://meet.google.com/tza-fcpu-awq',
 },{
     // img: `${fig3}`,
@@ -26,56 +26,56 @@ const meet = [{
 },{
     // img: `${fig4}`,
     title: 'Sala 4',
-    sub:"HISTÓRIA",
+    sub:"-",
     link: 'http://meet.google.com/fkm-bfpu-jex',
 },{
     // img: `${fig5}`,
     title: 'Sala 5',
-    sub:"ARTES",
+    sub:"-",
     link: ' http://meet.google.com/sqb-khtv-vgh',
 },{
     // img: `${fig6}`,
     title: 'Sala 6',
-    sub:"ARTES",
+    sub:"-",
     link: 'http://meet.google.com/wer-rjeq-zma',
 },{
     // img: `${fig7}`,
     title: 'Sala 7',
-    sub:"+Digital - READAPTADOS",
+    sub:"-",
     link: 'http://meet.google.com/twh-sdej-mea',
 },{
     // img: `${fig8}`,
     title: 'Sala 8',
-    sub:"+Digital - RESERVA",
+    sub:"=",
     link: 'http://meet.google.com/nzp-mhcj-mcp',
 },{
     // img: `${fig9}`,
     title: 'Sala 9',
-    sub:"+Digital - RESERVA",
+    sub:"=",
     link: 'http://meet.google.com/iwc-fuob-rsc',
 },
 {
     // img: `${fig10}`,
     title: 'Sala 10',
-    sub:"SaberJP - SECRETÁRIOS ESCOLARES",
+    sub:"-",
     link: 'http://meet.google.com/irt-hnws-zwb',
 },
 {
     // img: `${fig11}`,
     title: 'Sala 11',
-    sub:"SaberJP - SECRETÁRIOS ESCOLARES",
+    sub:"-",
     link: 'http://meet.google.com/ivw-zfyg-ehg',
 },
 {
     // img: `${fig12}`,
     title: 'Sala 12',
-    sub:"Sala de estudos Saber JP",
+    sub:"-",
     link: 'http://meet.google.com/qic-jpgq-yhx',
 },
 {
     // img: `${fig13}`,
     title: 'Sala 13',
-    sub:"Sala de estudos Saber JP",
+    sub:"-",
     link: 'http://meet.google.com/qap-jgtk-sap',
 },
 {
@@ -99,16 +99,16 @@ const meet = [{
 {
     // img: `${fig17}`,
     title: 'Sala 17',
-    sub:"+Digital - Sala de Estudos",
+    sub:"-",
     link: 'http://meet.google.com/imn-ntrs-cgk',
 }
 ]
 
 const message = {
-    title: "PROGRAMA MAIS DIGITAL",
-    sub:"A partir de 04/10/2021 até 28/10/2021",
-    message: "18h:30m-20h:30m",
-    public: "PÚBLICO: PROFESSORES -> CIÊNCIAS, HISTÓRIA ARTES E READAPTADOS",
+    title: "Ferramentas Google para Produtividade",
+    sub:"A partir de 24/11/2021 até 26/11/2021",
+    message: "14h:00m- 17h:00m",
+    public: "TÉCNICOS DA SEDEC",
 }
 
 app.get('/rooms', (req, res) => {
