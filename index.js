@@ -112,11 +112,11 @@ const message = {
 }
 
 app.get('/rooms', (req, res) => {
-    res.status(200).json(meet);
+    // res.status(200).json(meet);
 })
 
 app.get("/message", (req, res) => {
-    res.status(200).json(message);
+    // res.status(200).json(message);
 })
 
 app.listen(PORT, () => {
